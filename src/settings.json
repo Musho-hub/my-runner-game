@@ -1,0 +1,17 @@
+{
+    "player": {
+        "jumpStrength": 0.48,
+        "gravity": -0.02,
+        "color": "#ff0000"
+    },
+    "obstacle": {
+        "speed": 0.1,
+        "width": 1,
+        "height": 3,
+        "color": "#ff0000"
+    },
+    "ui": {
+        "gameOverText": "Game Over",
+        "restartButtonText": "Restart"
+    }
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+#gameOverContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#gameOverText {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#finalScore {
+  font-size: 24px;
+}
+
+#restartButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 20px;
+}
